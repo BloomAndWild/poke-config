@@ -3,10 +3,12 @@ An example, b&w internal config directory for the [poke tool](https://github.com
 
 ## Usage
 
-1. Clone the [poke tool](https://github.com/MrBananaLord/poke) to your machine
-1. Create `poke` alias (e.g. `alias poke='~/Projects/poke/exe/poke'`)
-1. Clone this repo to your machine under `~/.poke` directory
+1. install `poke-your-api` gem by running `gem install poke-your-api`
+1. run `git clone https://github.com/BloomAndWild/poke-config.git`
+1. run `mv poke-config/ ~/.poke`
 1. Run `poke -e staging` and enjoy
+
+(`bloomandwild/api/v2/availability/products` is a good candidate for testing)
 
 ### Environments
 Enviroments can be set in the config file (i.e. `~/.poke/bloomandwild/config.json`). Use `poke -e env_name` to run the request against the specified environment.
