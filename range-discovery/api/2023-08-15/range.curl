@@ -1,0 +1,20 @@
+curl $BASE_URL/api/2023-08-15/range -G \
+  -d "brand=bloom_and_wild" \
+  -d "locale=en" \
+  -d "page[size]=1000" \
+  -d "prioritize[slugs][]=the-ELISA-lb" \
+  -d "prioritize[tags][]=pastels" \
+  -d "shipping_country_id=1" \
+  # -d "sort=-price" \
+  # -d "filters[prices][][gte]=0" \
+  # -d "filters[prices][][lt]=1900" \
+  # -d "filters[prices][][gte]=3000" \
+  # -d "filters[prices][][lt]=4000" \
+  # -d "filters[prices][][gte]=4000" \
+  # -d "filters[prices][][lt]=99999" \
+  # -d "first_item_in_purchase=false" \
+  # -d "discount_code=cheryl" \
+  # -d "experiments[]=API_PRICE_ANNA_27" \
+  # -d "variants[]=1" \
+  # -d "experiments[]=JAN_2" \
+  # -d "variants[]=1" \

@@ -1,0 +1,4 @@
+curl $BASE_URL/api/v1/reviews -G \
+  # -d limit[testing]=1 \
+  -d limit=3 \
+  -d locale=de-AT \

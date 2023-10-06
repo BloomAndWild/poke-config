@@ -1,0 +1,17 @@
+{
+  "envs": {
+    "development": {
+      "BASE_URL": "http://localhost:3030"
+    },
+    "pbs": {
+      "BASE_URL": "https://www.bloomstaging.dev/range-discovery"
+    },
+    "staging": {
+      "BASE_URL": "https://www.bloomdev.org/range-discovery"
+    },
+    "production": {
+      "BASE_URL": "https://www.bloomandwild.com/range-discovery"
+    }
+  },
+  "default_env": "development"
+}

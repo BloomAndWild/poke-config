@@ -1,0 +1,45 @@
+{
+  "envs": {
+    "development": {
+      "BASE_URL": "https://api-local.bloomdev.org:3000",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "pbs": {
+      "BASE_URL": "https://api-72d91cc18b-pbs.bloomdev.org",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "staging": {
+      "BASE_URL": "https://www.bloomdev.org",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "production": {
+      "BASE_URL": "https://www.bloomandwild.com",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "bloomon_development": {
+      "BASE_URL": "https://brand-bloomon-local.bloomdev.org:3000",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "bloomon_pbs": {
+      "BASE_URL": "https://brand-bloomon-859007dff3-pbs.bloomdev.org",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "bloomon_staging": {
+      "BASE_URL": "https://bloomon-uk.bloomdev.org",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    },
+    "bloomon_production": {
+      "BASE_URL": "https://www.bloomon.co.uk",
+      "AUTH_EMAIL": "jan@bloomandwild.com",
+      "AUTH_TOKEN": ""
+    }
+  },
+  "default_env": "development"
+}

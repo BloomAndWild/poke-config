@@ -1,0 +1,6 @@
+curl $BASE_URL/api/v2/availability/products -G \
+  -d locale=en \
+  -d shipping_country_id=1 \
+  -d first_item_in_purchase=true \
+  # -d discount_code=cheryl \
+  # -d enable_gift_vouchers=true \

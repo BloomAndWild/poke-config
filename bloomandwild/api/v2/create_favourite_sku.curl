@@ -1,0 +1,3 @@
+curl $BASE_URL/api/v2/favourite_skus -X POST \
+  # -d locale=nl-BE
+  -d locale=en

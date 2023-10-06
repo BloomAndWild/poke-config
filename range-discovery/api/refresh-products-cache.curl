@@ -1,0 +1,2 @@
+curl $BASE_URL/api/refresh-product-cache -G \
+  -d "pwd=kebab-as-a-security" \

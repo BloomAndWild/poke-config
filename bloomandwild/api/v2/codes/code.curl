@@ -1,0 +1,4 @@
+curl $BASE_URL/api/v2/codes/hans123 -G \
+  -d locale=en \
+  -d country_id=1 \
+  -d email=jan@bloomandwild.com \

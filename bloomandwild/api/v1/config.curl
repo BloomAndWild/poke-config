@@ -1,0 +1,2 @@
+curl $BASE_URL/api/v1/config -G \
+  -d locale='1%00%C0%A7%C0%A2%252527%252522'

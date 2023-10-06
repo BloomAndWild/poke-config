@@ -1,0 +1,3 @@
+curl $BASE_URL/api/v2/contents -G \
+  -d filter[name]=mobile_filters \
+  # -d filter=asdas
