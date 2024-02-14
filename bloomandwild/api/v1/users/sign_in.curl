@@ -1,3 +1,3 @@
 curl -X POST $BASE_URL/api/v1/users/sign_in \
-  -d "email=asd@bloomandwild.com" \
+  -d "email=qwe@bloomandwild.com" \
   -d "password=qweqweqwe" \

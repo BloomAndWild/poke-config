@@ -1,0 +1,7 @@
+curl $BASE_URL/api/v2/favourite_skus -X POST \
+  -H Content-Type:application/vnd.api+json \
+  -H x-user-email:$AUTH_EMAIL \
+  -H x-user-token:$AUTH_TOKEN \
+  --data-raw '{"data":{"type":"favourite_skus","attributes":{"sku_id":2952}}}' \
+
+

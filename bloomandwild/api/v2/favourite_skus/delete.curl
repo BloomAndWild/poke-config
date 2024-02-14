@@ -1,0 +1,5 @@
+curl $BASE_URL/api/v2/favourite_skus/2952 -X DELETE \
+  -H x-user-email:$AUTH_EMAIL \
+  -H x-user-token:$AUTH_TOKEN \
+
+

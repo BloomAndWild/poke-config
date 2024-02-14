@@ -1,0 +1,5 @@
+curl $BASE_URL/api/v2/favourite_skus -G \
+  # -d shipping_country_id=1 \
+  -d locale=en \
+  -H x-user-email:$AUTH_EMAIL \
+  -H x-user-token:$AUTH_TOKEN \

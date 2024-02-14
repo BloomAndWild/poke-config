@@ -2,8 +2,8 @@
   "envs": {
     "development": {
       "BASE_URL": "https://api-local.bloomdev.org:3000",
-      "AUTH_EMAIL": "jan@bloomandwild.com",
-      "AUTH_TOKEN": ""
+      "AUTH_EMAIL": "qwe@bloomandwild.com",
+      "AUTH_TOKEN": "4e4rrz-4qzzgCzZd5H9Y"
     },
     "pbs": {
       "BASE_URL": "https://admin-api-24c501d0a6-pbs.bloomdev.org",
