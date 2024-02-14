@@ -1,1 +1,5 @@
-curl $BASE_URL/api/v2/skus/foobar/details
+curl $BASE_URL/api/v2/skus/205/details \
+  -H "User-Agent:bloom-and-wild/5.12.0 (Android 7.0; asus P028)" \
+  -H "X-BW-Origin:Android" \
+
+

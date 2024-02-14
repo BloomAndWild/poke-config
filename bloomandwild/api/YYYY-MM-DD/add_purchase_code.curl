@@ -1,0 +1,8 @@
+curl $BASE_URL/api/2023-10-23/purchases/24227598/add_code/janjanjanjanjan1 -X PUT \
+  -H x-purchase-token:a14d627bfff68743c89fee0ef1cf1cce \
+  -G -d include=code%2Cgift_voucher%2Cgift_vouchers%2Cgift_voucher_redemptions%2Corders%2Corders.shipping_address%2Corders.product%2Corders.sku%2Corders.addon_sku%2Corders.addon_skus%2Corders.shipping_option \
+  -d locale=en \
+  -d variants=1 \
+  # -G -d "include=code,gift_voucher,orders.addon_skus" \
+  # -H x-user-email:$AUTH_EMAIL \
+  # -H x-user-token:$AUTH_TOKEN \

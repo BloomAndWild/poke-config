@@ -6,7 +6,7 @@
       "AUTH_TOKEN": ""
     },
     "pbs": {
-      "BASE_URL": "https://api-72d91cc18b-pbs.bloomdev.org",
+      "BASE_URL": "https://admin-api-24c501d0a6-pbs.bloomdev.org",
       "AUTH_EMAIL": "jan@bloomandwild.com",
       "AUTH_TOKEN": ""
     },

@@ -1,0 +1,5 @@
+curl $BASE_URL/api/2023-10-23/purchases/23304335/remove_code/foobar -X PUT \
+  -H x-purchase-token:9a2d3c8563bcb7241cefdaf9677b27c4 \
+  -G -d "include=code,orders.addon_skus" \
+  # -H x-user-email:$AUTH_EMAIL \
+  # -H x-user-token:$AUTH_TOKEN \

@@ -1,0 +1,2 @@
+curl $BASE_URL/api/v1/reviews/stats -G \
+  -d locale=en \

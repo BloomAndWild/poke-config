@@ -1,0 +1,4 @@
+curl "$BASE_URL/api/2023-07-04/unit-sku-prices?shipping_country_id=1&first_item_in_purchase=true&discount_code=foobar" \
+  -X POST \
+  -H 'Content-Type: application/json' \
+  -d '{"skus":[ {"id":3299,"type":"one_off"},{"id":1515,"type":"one_off"},{"id":1493,"type":"one_off"} ]}' \

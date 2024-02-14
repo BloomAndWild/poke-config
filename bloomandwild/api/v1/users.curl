@@ -1,4 +1,5 @@
 curl $BASE_URL/api/v1/users \
   -H x-user-email:$AUTH_EMAIL \
   -H x-user-token:$AUTH_TOKEN \
+  -G -d "include=devices" \
   # user id 6152555

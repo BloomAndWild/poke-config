@@ -1,0 +1,2 @@
+curl $BASE_URL/api/v1/devices \
+  -H X-Fingerprint:d022039c-8100-4af9-a14d-6819e266d108 \
