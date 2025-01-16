@@ -5,7 +5,7 @@ An example, b&w internal config directory for the [poke tool](https://github.com
 
 1. install `poke-your-api` gem by running `gem install poke-your-api`
 1. run `git clone https://github.com/BloomAndWild/poke-config.git`
-1. run `mv poke-config/ ~/.poke`
+1. run `mv poke-config/* ~/.poke`
 1. Run `poke init`
 1. Run `poke -e staging` and enjoy
 
